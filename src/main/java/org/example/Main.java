@@ -19,9 +19,9 @@ public class Main {
         System.out.println(res);
         System.out.println("Второе здаание: ");
         List<Employee> workerListAndManager = new ArrayList<>();
-        workerListAndManager.add(new Employee(1993, 24, 10,50, "Paul"));
-        workerListAndManager.add(new Manager(1992,2,23, 50,"Misha"));
-        workerListAndManager.add(new Employee(1993, 24, 10,10, "Petr"));
+        workerListAndManager.add(new Employee(1993, 24, 10,50, "Paul")); // Сотрудник
+        workerListAndManager.add(new Manager(1992,2,23, 100,"Misha")); // Менеджер
+        workerListAndManager.add(new Employee(1993, 24, 10,10, "Petr")); // Сотрудник
 
         Manager.payRaiseAllWorkers(workerListAndManager,100);
 
